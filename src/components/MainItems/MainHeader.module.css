@@ -1,0 +1,34 @@
+.header {
+  width: 90vw;
+  max-width: 1170px;
+  margin: 0 auto;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  display: flex;
+}
+
+.searchForm {
+  width: 100%;
+  max-width: 600px;
+}
+
+.title {
+  color: #495464;
+  font-size: 4rem;
+}
+.searchInput {
+  width: 100%;
+  max-width: 600px;
+  border: none;
+  border-bottom: 3px solid #495464;
+  background-color: transparent;
+  font-size: 3rem;
+  outline: none;
+}
+
+.BsBookmarkHeartFill {
+  margin-top: 3rem;
+  margin-right: 0rem;
+  margin-left: auto;
+  color: #798777;
+}

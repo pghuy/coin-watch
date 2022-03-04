@@ -1,0 +1,27 @@
+.btn-container {
+  display: flex;
+  flex-direction: row;
+  width: 90vw;
+  max-width: 1170px;
+  margin: 3rem auto;
+  justify-content: center;
+}
+
+.btnPage {
+  width: 5rem;
+  height: 2.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  background-color: #065a79;
+  border-radius: 3px;
+  border-color: transparent;
+  margin-bottom: 2rem;
+}
+
+.btn-container p {
+  color: #393b44;
+  font-size: 1.7rem;
+  font-weight: bold;
+  margin: 0rem 2rem 2rem;
+}

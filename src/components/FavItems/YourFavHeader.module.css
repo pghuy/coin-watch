@@ -1,0 +1,27 @@
+.header {
+  width: 90vw;
+  max-width: 1170px;
+  margin: 0 auto;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.titleAndIcons {
+  display: flex;
+}
+
+.title {
+  color: #495464;
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.AiFillHome {
+  margin-top: 3rem;
+  margin-right: 0rem;
+  margin-left: auto;
+  margin-bottom: 1.5rem;
+  color: #798777;
+}

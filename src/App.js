@@ -1,24 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
-
+import { Routes, Route, Navigate } from "react-router-dom";
+import FavProvider from './store/FavProvider'
+import AllCoins from "./pages/AllCoins";
+import YourFavItemsPage from "./pages/YourFavItemsPage";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <FavProvider >
+    <Routes>
+      <Route path="/" element={<Navigate to="/allcoins" replace />} />
+      <Route path="/allcoins" element={<AllCoins />} />
+      <Route path="/favcoins" element={<YourFavItemsPage />} />
+    </Routes>
+    </FavProvider >
   );
 }
 
